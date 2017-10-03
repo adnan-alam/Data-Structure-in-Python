@@ -1,2 +1,2 @@
 # Data-Structure-in-Python
-Some popular data structure implementation in python
+Some popular data structures implementation in python that I've learnt recently.
