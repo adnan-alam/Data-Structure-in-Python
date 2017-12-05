@@ -57,18 +57,15 @@ class Linked_list:
                 current = current.get_next()
         return False
     
-    def size(self):
-        current = self.head
-        count = 0
-        while current:
-            count +=1
-            current = current.get_next()
-        return count
-
     def print_list(self):
         current = self.head
-        temp = []
+        self.temp = []
         while current:
-            temp.append(current.get_data())
+            self.temp.append(current.get_data())
             current = current.get_next()
-        return temp
+        print(self.temp) 
+
+    def __len__(self):
+        return len(self.temp)
+    
+    
